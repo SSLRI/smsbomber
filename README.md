@@ -1,4 +1,4 @@
-![Explosion!!](https://imgur.com/download/FPZPLK9)
+![Explosion!!](https://s7.picofile.com/file/8258399534/images.png)
 
 ## Features
 - Lots of integrated SMS APIs, and support for custom API configuration!
@@ -94,7 +94,7 @@ pip3 install -r requirements.txt
 You can also read this via `python3 bomber.py -h` or `python3 bomber.py --help`
 
 ```
-YetAnotherSMSBomber - A clean, small and powerful SMS bomber script.
+smsbomber - A clean, small and powerful SMS bomber script.
 
 Usage: bomber.py [--config-path/-c] [--num/-N] [--country/-C] [--threads/-T]
                  [--timeout/-t] [--proxy/-P] [--verbose/-v] [--verify/-V]
