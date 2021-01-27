@@ -23,10 +23,10 @@ sudo easy_install pip
 sudo pip install --upgrade pip
 
 # Clone this repo
-git clone https://github.com/sslri/YetAnotherSMSBomber.git
+git clone https://github.com/sslri/smsbomber.git
 
 # Move into working directory.
-cd YetAnotherSMSBomber
+cd smsbomber
 
 # Install the requirements.
 pip3 install -r requirements.txt
@@ -43,10 +43,10 @@ Open Termux and enter the following commands:
 pkg install git python -y
 
 # Clone this repo
-git clone https://github.com/sslri/YetAnotherSMSBomber.git
+git clone https://github.com/sslri/smsbomber.git
 
 # Move into working directory.
-cd YetAnotherSMSBomber
+cd smsbomber
 
 # Install the requirements.
 pip3 install -r requirements.txt
@@ -65,10 +65,10 @@ apk add python3
 apk add py3-pip
 
 # Clone this repo
-git clone https://github.com/sslri/YetAnotherSMSBomber.git
+git clone https://github.com/sslri/smsbomber.git
 
 # Move into working directory.
-cd YetAnotherSMSBomber
+cd smsbomber
 
 # Install the requirements.
 pip3 install -r requirements.txt
@@ -81,10 +81,10 @@ pip3 install -r requirements.txt
 sudo apt install git python3 python3-pip
 
 # Clone this repo
-git clone https://github.com/sslri/YetAnotherSMSBomber.git
+git clone https://github.com/sslri/smsbomber.git
 
 # Move into working directory.
-cd YetAnotherSMSBomber
+cd smsbomber
 
 # Install the requirements.
 pip3 install -r requirements.txt
@@ -142,4 +142,4 @@ python3 bomber.py -p -N 500 -c 91 -T 30 -t 20 <TARGET>
 - [fonic](https://github.com/fonic) for his awesome formatter for `argparse`. Check it out in this [gist](https://gist.github.com/fonic/fe6cade2e1b9eaf3401cc732f48aeebd)!
 
 ## License
-This project is licensed under the [GNU General Public License v3.0](https://github.com/AvinashReddy3108/YetAnotherSMSBomber/blob/master/LICENSE)
+This project is licensed under the [GNU General Public License v3.0](https://github.com/sslri/smsbomber/blob/master/LICENSE)
