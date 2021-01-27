@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
-# YetAnotherSMSBomber - A clean, small and powerful SMS bomber script.
+# smsbomber - A clean, small and powerful SMS bomber script.
 # Copyright (C) 2020 Avinash Reddy <https://github.com/sslri>
 #
-# YetAnotherSMSBomber is free software: you can redistribute it and/or modify
+# smsbomber is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# YetAnotherSMSBomber is distributed in the hope that it will be useful,
+# smsbomber is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with YetAnotherSMSBomber.  If not, see <https://www.gnu.org/licenses/>.
+# along with smsbomber.  If not, see <https://www.gnu.org/licenses/>.
 
 from concurrent.futures import ThreadPoolExecutor
 from utils import APIRequestsHandler, CustomArgumentParser
@@ -25,10 +25,12 @@ import time
 
 ascii_art = r"""
 
-__   __     _        _               _    _
-\ \ / /___ | |_     /_\   _ _   ___ | |_ | |_   ___  _ _
- \ V // -_)|  _|   / _ \ | ' \ / _ \|  _|| ' \ / -_)| '_|
-  |_| \___| \__|  /_/ \_\|_||_|\___/ \__||_||_|\___||_|
+
+               ___  ___  _       '
+              / __|/ __|| | _ _ | |
+              \__ \\__ \| || '_|| |
+              |___/|___/|_||_|  |_|
+
  ___  __  __  ___    ___              _
 / __||  \/  |/ __|  | _ ) ___  _ __  | |__  ___  _ _
 \__ \| |\/| |\__ \  | _ \/ _ \| '  \ | '_ \/ -_)| '_|
@@ -39,7 +41,7 @@ __   __     _        _               _    _
 parser = CustomArgumentParser(
     allow_abbrev=False,
     add_help=False,
-    description="YetAnotherSMSBomber - A clean, small and powerful SMS bomber script.",
+    description="smsbomber - A clean, small and powerful SMS bomber script.",
     epilog="Use this for fun, not for revenge or bullying!",
 )
 parser.add_argument(
